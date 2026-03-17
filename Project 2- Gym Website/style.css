@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74') center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Sections */
+section {
+  padding: 70px;
+  text-align: center;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+}
+
+/* Plans */
+.plans {
+  background: #111;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #1a1a1a;
+}
+
+/* Contact */
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+}
+
+/* Footer */
+footer {
+  background: black;
+  padding: 15px;
+}
