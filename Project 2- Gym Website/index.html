@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PowerFit Gym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <h2>💪 PowerFit</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#plans">Plans</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <h1>Build Your Dream Body</h1>
+  <p>Train Hard. Stay Fit. Live Strong.</p>
+  <button onclick="joinNow()">Join Now</button>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About Us</h2>
+  <p>We provide world-class fitness training with modern equipment and expert trainers.</p>
+</section>
+
+<!-- Services -->
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Personal Training</h3>
+      <p>One-on-one coaching</p>
+    </div>
+    <div class="card">
+      <h3>Cardio Training</h3>
+      <p>High-end cardio machines</p>
+    </div>
+    <div class="card">
+      <h3>Weight Training</h3>
+      <p>Modern gym equipment</p>
+    </div>
+  </div>
+</section>
+
+<!-- Plans -->
+<section id="plans" class="plans">
+  <h2>Membership Plans</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Basic</h3>
+      <p>₹999/month</p>
+      <button onclick="buyPlan('Basic')">Choose</button>
+    </div>
+    <div class="card">
+      <h3>Standard</h3>
+      <p>₹1999/month</p>
+      <button onclick="buyPlan('Standard')">Choose</button>
+    </div>
+    <div class="card">
+      <h3>Premium</h3>
+      <p>₹2999/month</p>
+      <button onclick="buyPlan('Premium')">Choose</button>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+  <h2>What Our Members Say</h2>
+  <p>"Best gym experience ever!"</p>
+  <p>"Amazing trainers and facilities."</p>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Your Email">
+  <button onclick="submitForm()">Send</button>
+</section>
+
+<footer>
+  <p>© 2026 PowerFit Gym</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
